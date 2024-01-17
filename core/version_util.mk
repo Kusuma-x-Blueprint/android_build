@@ -240,7 +240,7 @@ ifndef BUILD_NUMBER
   # from this date/time" value.  Make it start with a non-digit so that
   # anyone trying to parse it as an integer will probably get "0".
   BUILD_NUMBER := $(BUILD_DATETIME)
-  HAS_BUILD_NUMBER := false
+  HAS_BUILD_NUMBER := true
 endif
 .KATI_READONLY := BUILD_NUMBER HAS_BUILD_NUMBER
 
