@@ -26,7 +26,6 @@ PRODUCT_PACKAGES += \
     Calendar \
     Contacts \
     DeskClock \
-    Gallery2 \
     Music \
     OneTimeInitializer \
     preinstalled-packages-platform-handheld-product.xml \
@@ -37,6 +36,7 @@ PRODUCT_PACKAGES += \
 ifeq ($(LINEAGE_BUILD),)
 PRODUCT_PACKAGES += \
     Camera2 \
+    Gallery2 \
     LatinIME
 endif
 
