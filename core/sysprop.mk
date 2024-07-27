@@ -267,6 +267,7 @@ $(gen_from_buildinfo_sh): $(INTERNAL_BUILD_ID_MAKEFILE) $(API_FINGERPRINT) | $(B
 	        PRODUCT_DEFAULT_LOCALE="$(call get-default-product-locale,$(PRODUCT_LOCALES))" \
 	        PRODUCT_DEFAULT_WIFI_CHANNELS="$(PRODUCT_DEFAULT_WIFI_CHANNELS)" \
 	        PRIVATE_BUILD_DESC="$(BUILD_DESC)" \
+	        EXTRA_BUILD_DESC="$(BUILD_DESC)" \
 	        BUILD_ID="$(BUILD_ID)" \
 	        BUILD_DISPLAY_ID="$(BUILD_DISPLAY_ID)" \
 	        DATE="$(DATE_FROM_FILE)" \
